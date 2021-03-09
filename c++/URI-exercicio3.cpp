@@ -5,16 +5,10 @@ int main() {
     int n1, n2, n3, n4, n5;
     int par = 0;
 
-
-
     cin >> n1;
-    cout << endl;
     cin >> n2;
-    cout << endl;
     cin >> n3;
-    cout << endl;
     cin >> n4;
-    cout << endl;
     cin >> n5;
 
     if (n1 % 2 == 0){
