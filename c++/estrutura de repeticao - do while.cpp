@@ -2,18 +2,19 @@
 using namespace std;
 
 int main() {
-    
+    int i = 0;
 
     cout << "inicio" << endl;
 
-    int i = 0;
+    // O do while execulta a  tarefa primeiro e depois execulta a  condição;
 
-    // O while verifica a condição primeiro e depois executa a tarefa;
-
-    while(i <= 10) {
+    do{
         cout << "Valor de i: " << i << endl;
         i++;
-    }
+    }while(i <= 10);
+
+
     cout << "fim" << endl;
+
     return 0;
 }
